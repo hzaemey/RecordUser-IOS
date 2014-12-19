@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2847E311A3E64F900E428BE /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2847E301A3E64F900E428BE /* PlaySoundsViewController.swift */; };
+		A2847E331A3E8C8A00E428BE /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2847E321A3E8C8A00E428BE /* movie_quote.mp3 */; };
 		A2B95A841A3BFC6900340790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B95A831A3BFC6900340790 /* AppDelegate.swift */; };
 		A2B95A861A3BFC6900340790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B95A851A3BFC6900340790 /* ViewController.swift */; };
 		A2B95A891A3BFC6900340790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B95A871A3BFC6900340790 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2847E301A3E64F900E428BE /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		A2847E321A3E8C8A00E428BE /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		A2B95A7E1A3BFC6900340790 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B95A821A3BFC6900340790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2B95A831A3BFC6900340790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 				A2B95A831A3BFC6900340790 /* AppDelegate.swift */,
 				A2B95A851A3BFC6900340790 /* ViewController.swift */,
 				A2B95A871A3BFC6900340790 /* Main.storyboard */,
+				A2847E301A3E64F900E428BE /* PlaySoundsViewController.swift */,
 				A2B95A8A1A3BFC6900340790 /* Images.xcassets */,
 				A2B95A8C1A3BFC6900340790 /* LaunchScreen.xib */,
 				A2B95A811A3BFC6900340790 /* Supporting Files */,
@@ -90,6 +95,7 @@
 		A2B95A811A3BFC6900340790 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2847E321A3E8C8A00E428BE /* movie_quote.mp3 */,
 				A2B95A821A3BFC6900340790 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				A2B95A891A3BFC6900340790 /* Main.storyboard in Resources */,
 				A2B95A8E1A3BFC6900340790 /* LaunchScreen.xib in Resources */,
+				A2847E331A3E8C8A00E428BE /* movie_quote.mp3 in Resources */,
 				A2B95A8B1A3BFC6900340790 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B95A861A3BFC6900340790 /* ViewController.swift in Sources */,
+				A2847E311A3E64F900E428BE /* PlaySoundsViewController.swift in Sources */,
 				A2B95A841A3BFC6900340790 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +345,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,8 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +417,7 @@
 				A2B95A9F1A3BFC6900340790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B95AA01A3BFC6900340790 /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				A2B95AA21A3BFC6900340790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
